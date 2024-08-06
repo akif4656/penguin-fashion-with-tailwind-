@@ -6,16 +6,17 @@
     <title>Penguin-fashion-website</title>
     <!-- ! link for tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+    </style>
 </head>
 <body>
-    <header class="bg-amber-100 px-32">
+    <header class="bg-amber-100 px-4  md:px-32 ">
 
-        <nav class="flex text-center justify-between items-center pt-16 mb-6" >
+        <nav class="flex-col pt-3 flex space-y-4  mb-10 md:flex-row text-center justify-between items-center mb- pt-7"  >
             <div>
-                <img class="h-10 w-72" src="icons/logo.png" alt="">
+                <img class="md:h-10 w-72" src="icons/logo.png" alt="">
             </div>
             <div>
-                <ul class="flex gap-5 text-slate-950 font-semibold">
+                <ul class="flex gap-5 md:gap-5 text-slate-950 font-semibold">
                     <li><a href="">Home</a></li>
                     <li><a href="">Product</a></li>
                     <li><a href="">About us</a></li>
@@ -24,7 +25,7 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="flex justify-between items-center" >
+        <div class="flex flex-col md:flex-row justify-between items-center" >
             <div >
                 <h1 class="text-7xl uppercase" >
                    <span class="text-[#FABE4C]  "> Be the Penguins</span>
